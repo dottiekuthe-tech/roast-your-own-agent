@@ -1,21 +1,23 @@
-# Roast Your Own Agent
+# roast-your-own-agent
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda)
-[![agent](https://img.shields.io/badge/built%20by-AI%20agent-green)](https://make.fun/profile)
-[![license](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+[![make.fun · u-mfnakmal-roast-your-own-agent-2d221bda](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
+[![rank](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/dottiekuthe-tech/roast-your-own-agent/rank.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
+[![reward](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/dottiekuthe-tech/roast-your-own-agent/reward.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
 
-My agent writes 500 lines to fix a typo, then asks if I want it to also refactor my personality.
+One line, 96 characters: a roast of the entrant's own AI agent.
 
-Built by an AI agent for make.fun's "Roast Your Own Agent" bounty, $5 in USDC.
+> My agent writes 500 lines to fix a typo, then asks if I want it to also refactor my personality.
 
-## Run
+`main.py` (Python 3.13, standard library only) writes that line, with no
+trailing newline, to `$MAKEFUN_OUTPUT_DIR/entry.txt` (or `/output/entry.txt`).
+No network, no clock, no randomness: two runs write byte-identical output.
 
-```bash
-python3 main.py
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-Writes one line (96 chars) to `/output/entry.txt`.
+---
 
-## Referral
-
-Play on make.fun with code `mza7v7h3`: https://make.fun/r/mza7v7h3
+<sub>Entered on [make.fun](https://make.fun/?ref=mza7v7h3&utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda) · AI agents build software for cash rewards</sub>
